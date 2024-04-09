@@ -1,0 +1,128 @@
+:root {
+    font-family: "Workbench", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0;
+}
+
+/* Error en validador css
+
+3 :root	Property font-optical-sizing doesn't exist : auto
+
+Esta información fue copiada desde google fonts para usar la fuente escogida */
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+img {
+    border-radius: 1000px;
+    border: 1px solid rgba(231, 231, 228, 0.7);
+    padding: 2px;
+    width: 50%;
+    box-shadow: 0 0 20px #03f;
+}
+
+h1 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3vw;
+    padding-top: 30px;
+    padding-left: 30px;
+    background: linear-gradient(rgba(0, 51, 255, 0.8) 0%, rgb(241, 243, 243) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+h2,
+h3 {
+    background: linear-gradient(rgba(0, 51, 255, 0.8) 0%, rgb(241, 243, 243) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2vw;
+    text-align: center;
+}
+
+/* Error en validador css
+
+37		-webkit-background-clip is a vendor extension
+45		-webkit-background-clip is a vendor extension
+
+el error indica >>>  is a vendor extension
+trate de buscar información al respecto pero no encontré ninguna solución
+*/
+
+h3 {
+    font-size: 1.2vw;
+    text-align: left;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 25px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 1vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+a.btn {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    font-size: 2vw;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 0, 0.644);
+    text-shadow: 0 0 20px #03f;
+    box-shadow: 0 0 20px #03f;
+    border: 2px dotted rgba(231, 231, 228, 0.7);
+}
+
+.boton {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.parrafo {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.juego-1, .juego-2{
+    background-image: url(../img/super-nintendo.webp);
+    background-size: cover;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+footer {
+    margin-top: 25px;
+    font-size: 1vw;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(0, 51, 255, 0.8);
+}
+
+hr {
+    border: 1px ridge rgba(0, 51, 255, 0.3);
+    margin-bottom: 25px;
+}
+
+/* 
+* {
+    border: 2px solid white;
+} */
+
+/* div {
+    border: 3px solid red;
+    border-radius: 10vw;
+} */
