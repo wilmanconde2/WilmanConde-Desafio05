@@ -8,7 +8,7 @@ export default {
         rollupOptions: {
             input: {
                 mariokart: resolve('./pages/mariokart.html'),
-                contacto: resolve('./pages/mortalkombat.html'),
+                mortalkombat: resolve('./pages/mortalkombat.html'),
                 index: resolve('index.html')
             }
         }
